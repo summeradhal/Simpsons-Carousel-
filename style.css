@@ -1,0 +1,93 @@
+body{
+
+	background-image: url("simpsons.jpg");
+	background-size:auto 100% ;
+     background-repeat: no-repeat;
+      background-position: center center;
+
+}
+
+
+ 
+.navbar-brand img{
+	width:40px;
+	height:60px;
+	margin-bottom:30px;
+	padding-bottom:30px;
+
+
+
+}
+
+
+.carousel-inner img{
+	width:100%;
+	padding-left:200px;
+	padding-right:200px;
+}
+
+.carousel-inner h3,p{
+	color:black;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+}
+
+.carousel-inner h3{
+	font-size:48px;
+}
+
+.carousel-inner p{
+	font-size:28px;
+}
+
+
+#Container .mix{
+	display: none;
+}
+
+
+
+
+#mixContainer{
+		background-color:white;
+}
+
+
+.filter1{
+
+	display:inline-block;
+	padding-left:10%;
+
+}
+
+#categories{
+	padding-top:5px;
+	padding-right:40px;
+	float:right;
+	display:inline-block;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
