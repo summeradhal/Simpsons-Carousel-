@@ -15,6 +15,12 @@
 
 <body>
 
+<audio controls autoplay >
+  
+<!--   <source src="simpTheme.mp3" type="audio/mpeg"> -->
+
+</audio>
+
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -103,7 +109,7 @@
 
 
 
-    ...
+
   </div>
 
   <!-- Controls -->
@@ -133,20 +139,20 @@
 
 <div class="row">
 
-<div class="filter1" data-filter=".category-1.category-2" data-toggle="modal" data-target="#myModal" > <img src="homey.png"> </div>
-<div class="filter1" data-filter=".category-1.category-2" data-toggle="modal" data-target="#myModal" > <img src="lisa.png"> </div>
-<div class="filter1" data-filter=".category-1.category-2" data-toggle="modal" data-target="#myModal" > <img src="arge.png"> </div>
-<div class="filter1" data-filter=".category-1.category-2" data-toggle="modal" data-target="#myModal" > <img src="abe.png"> </div>
-<div class="filter1" data-filter=".category-1.category-2" data-toggle="modal" data-target="#myModal" > <img src="maggie.png"> </div>
+<div class="filter1" data-filter=".category-1.category-2" data-toggle="modal" data-target="#myModal" value="homey" > <img src="homey.png"> </div>
+<div class="filter1" data-filter=".category-1.category-2" data-toggle ="modal" data-target="#myModal" value="lisa" > <img src="lisa.png"> </div>
+<div class="filter1" data-filter=".category-1.category-2" data-toggle="modal" data-target="#myModal" value="arge"> <img src="arge.png"> </div>
+<div class="filter1" data-filter=".category-1.category-2" data-toggle="modal" data-target="#myModal" value="abe"> <img src="abe.png"> </div>
+<div class="filter1" data-filter=".category-1.category-2" data-toggle="modal" data-target="#myModal" value="maggie"> <img src="maggie.png"> </div>
 
 <!-- // Show target elements that have both classes category-1 AND category-2 -->
 
-<div class="filter1" data-filter=".category-2" data-toggle="modal" data-target="#myModal" > <img src="moe.png"></div>
-<div class="filter1" data-filter=".category-2" data-toggle="modal" data-target="#myModal" > <img src="willy.png"></div>
-<div class="filter1" data-filter=".category-2" data-toggle="modal" data-target="#myModal" > <img src="burns.png"></div>
-<div class="filter1" data-filter=".category-2" data-toggle="modal" data-target="#myModal" > <img src="krusty.png"></div>
-<div class="filter1" data-filter=".category-2" data-toggle="modal" data-target="#myModal" > <img src="itchy.png"></div>
-<div class="filter1" data-filter=".category-2" data-toggle="modal" data-target="#myModal" > <img src="wiggum.png"></div>
+<div class="filter1" data-filter=".category-2" data-toggle="modal" data-target="#myModal" value="maggie"> <img src="moe.png"></div>
+<div class="filter1" data-filter=".category-2" data-toggle="modal" data-target="#myModal" value="maggie"> <img src="willy.png"></div>
+<div class="filter1" data-filter=".category-2" data-toggle="modal" data-target="#myModal" value="maggie"> <img src="burns.png"></div>
+<div class="filter1" data-filter=".category-2" data-toggle="modal" data-target="#myModal" value="maggie"> <img src="krusty.png"></div>
+<div class="filter1" data-filter=".category-2" data-toggle="modal" data-target="#myModal" value="maggie"> <img src="itchy.png"></div>
+<div class="filter1" data-filter=".category-2" data-toggle="modal" data-target="#myModal" value="maggie"> <img src="wiggum.png"></div>
 </div>
 <!-- // Show target elements that have either classes category-1 OR category-2 -->
 
@@ -157,10 +163,6 @@
 
 
 
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-  Launch demo modal
-</button>
 
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -182,12 +184,11 @@
 </div>
 
 
-
-
-<script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
-		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+    <script src="script.js"></script>
 		
-		<script src="main.js"></script>
+	
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 
